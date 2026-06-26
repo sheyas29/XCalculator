@@ -96,7 +96,7 @@ function Calculator() {
   return (
     <div className="calculator">
       <h1>React Calculator</h1>
-      <input value={expression} readOnly />
+      <input value={expression} readOnly type="text" />
 
       <div className="result">{result}</div>
 
